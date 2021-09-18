@@ -48,7 +48,7 @@ def createGIF(frames, name):
         for idx, frame in enumerate(frames):
             writer.append_data(frame)
         writer.close()
-
+print("Hola")
 #Lectura de imagen 
 img = cv2.imread("arteria.jpg")  #  numpy -> [[b],[g],[r]]
 img = cv2.cvtColor(img, cv2.COLOR_BGR2RGB)   #  numpy -> [[r],[g],[b]]
